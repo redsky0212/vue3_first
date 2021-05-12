@@ -4,6 +4,7 @@
 * [Vue 3 공식문서(영문) : https://v3.vuejs.org/guide/migration/introduction.html](https://v3.vuejs.org/guide/migration/introduction.html)
 * [vue3 vite관련 설명 블로그](https://marrrang.tistory.com/10)
 * [vue3 설명 블로그](https://ake.kr/2020/10/01/vue3-life-starting-with-the-vite/#vite)
+* [반응성(reactivity) 참조 공식문서](https://v3.ko.vuejs.org/guide/reactivity.html)
 
 ## #시작하기
 * [Vite](https://github.com/vitejs/vite)를 사용해 시작하기.
