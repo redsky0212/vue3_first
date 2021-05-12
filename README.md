@@ -25,7 +25,12 @@ vue create hello-vue3
 ```
 
 ## # Vite를 사용했을때 장점
-* 빠른 콜드 서버 스타트
+* 빠른 (콜드 서버 스타트) 첫 실행
+  - 개발중에 번들링을 하지 않는다.
+* 코드는 주문형(온디맨드)방식으로 컴파일되므로 현재 페이지 컴파일된 코드만 불러온다.
+  - 페이지가 많은 애플리케이션일때 속도 차이가 더 크다.
+* Hot Module Replacement(HMR)의 성능이 모듈개수와 상관없이 빠르다.
+* React, Preact, Svelte도 플러그인으로 지원됨.
 
 # vue-property-decorator 사용
 * vue-property-decorator는 vue-class-component를 기반으로 제작되었다.
