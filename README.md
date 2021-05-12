@@ -32,6 +32,14 @@ vue create hello-vue3
 * Hot Module Replacement(HMR)의 성능이 모듈개수와 상관없이 빠르다.
 * React, Preact, Svelte도 플러그인으로 지원됨.
 
+
+## # 컴포지션API(Composition API)
+* setup 옵션을 사용
+  - 컴포넌트가 생성되기 전에 실행됨. composition API의 진입점.
+  - 아직 컴포넌트가 생성되지 않았기 때문에 setup내부에서는 this를 사용할 수 없음.
+  - setup에서 반환된 모든것들은 컴포넌트에서 사용할 수 있다.
+  - 전달인자는 setup(props, context) 이다.
+
 ## # Reactivity API(reactive, ref, toRefs, readonly)
 * 참조url
   - [참조문서](https://v3.ko.vuejs.org/guide/reactivity-fundamentals.html#반응형-상태-선언하기)
