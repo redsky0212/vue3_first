@@ -33,7 +33,15 @@ vue create hello-vue3
 * React, Preact, Svelte도 플러그인으로 지원됨.
 
 ## # Reactivity API(reactive, ref, toRefs, readonly)
-[참조문서](https://v3.ko.vuejs.org/guide/reactivity-fundamentals.html#반응형-상태-선언하기)
+* 참조url
+  - [참조문서](https://v3.ko.vuejs.org/guide/reactivity-fundamentals.html#반응형-상태-선언하기)
+  - [기본반응형API: https://v3.ko.vuejs.org/api/basic-reactivity.html#reactive](https://v3.ko.vuejs.org/api/basic-reactivity.html#reactive)
+
+* reactive 사용
+  - reactive() 함수는 인자로 넘겨주는 객체를 반응형으로 깊게 적용하고 복사본 객체를 return 한다.
+  ```javascript
+  const obj = reactive({ count: 0 });
+  ```
 
 # vue-property-decorator 사용
 * vue-property-decorator는 vue-class-component를 기반으로 제작되었다.
