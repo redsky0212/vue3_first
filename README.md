@@ -32,6 +32,9 @@ vue create hello-vue3
 * Hot Module Replacement(HMR)의 성능이 모듈개수와 상관없이 빠르다.
 * React, Preact, Svelte도 플러그인으로 지원됨.
 
+## # Reactivity API(reactive, ref, toRefs, readonly)
+[참조문서](https://v3.ko.vuejs.org/guide/reactivity-fundamentals.html#반응형-상태-선언하기)
+
 # vue-property-decorator 사용
 * vue-property-decorator는 vue-class-component를 기반으로 제작되었다.
 * 참조 url
